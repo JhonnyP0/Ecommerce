@@ -4,7 +4,7 @@ from tkinter import simpledialog
 
 root=tk.Tk()
 root.title("ItemPlacer")
-root.geometry("600x300")
+root.geometry("500x300")
 
 AppFrame=tk.Frame()
 LogFrame=tk.Frame()
