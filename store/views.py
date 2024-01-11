@@ -16,3 +16,9 @@ def store(request):
     template = loader.get_template('store/store.html')
     context={'myitems':myitems}
     return HttpResponse(template.render(context,request))
+
+def dbtest(request):
+    myitems=Items.objects.all().values()
+    template = loader.get_template('store/dbtest.html')
+    context={'myitems':myitems}
+    return HttpResponse(template.render(context,request))
