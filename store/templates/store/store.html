@@ -25,61 +25,26 @@
                     <!--<div class="item"><div id="photo"><img class="img" src="{% static 'example.png' %}" ></div><div class="price">$20</div><div class="tocart">Add to cart</div></div>-->
                     
                     <!--test-->
-                    <div class="item">
+                    
+                    <!--<div class="item">
                         <div class="photo"></div>
                         <div class="price">$20</div>
                         <div class="tocart">Add to cart</div>
                     </div>
+                    
+                    -->
 
-                    <div class="item">
-                        <div class="photo"></div>
-                        <div class="price">$20</div>
-                        <div class="tocart">Add to cart</div>
-                    </div>
+                    {% for item in myitems %}
+                    
+                        <div class="item">
+                            <div class="photo"></div>
+                            <div class="name">{{item.name}}</div>
+                            <div class="price">{{item.price}}</div>
+                            <div class="tocart">Add to cart</div>
+                        </div>
+                    
+                    {% endfor%}
 
-                    <div class="item">
-                        <div class="photo"></div>
-                        <div class="price">$20</div>
-                        <div class="tocart">Add to cart</div>
-                    </div>
-                    
-                    <div class="item">
-                        <div class="photo"></div>
-                        <div class="price">$20</div>
-                        <div class="tocart">Add to cart</div>
-                    </div>
-                    
-                    <div class="item">
-                        <div class="photo"></div>
-                        <div class="price">$20</div>
-                        <div class="tocart">Add to cart</div>
-                    </div>
-                    
-                    <div class="item">
-                        <div class="photo"></div>
-                        <div class="price">$20</div>
-                        <div class="tocart">Add to cart</div>
-                    </div>
-                    
-                    <div class="item">
-                        <div class="photo"></div>
-                        <div class="price">$20</div>
-                        <div class="tocart">Add to cart</div>
-                    </div>
-                    
-                    <div class="item">
-                        <div class="photo"></div>
-                        <div class="price">$20</div>
-                        <div class="tocart">Add to cart</div>
-                    </div>
-                    
-                    <div class="item">
-                        <div class="photo"></div>
-                        <div class="price">$20</div>
-                        <div class="tocart">Add to cart</div>
-                    </div>
-                    
-                    <!---->
                 </div>
             </div>
             <div id="footer"></div>
