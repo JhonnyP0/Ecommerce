@@ -113,7 +113,7 @@ color:black;
 .tocart
 {
     position: absolute;
-    bottom:1em;
+    bottom:0.8em;
     display: inline-block;
     right: 30%;
     left: 30%;
@@ -137,7 +137,7 @@ color:black;
 .photo
 {
     position: absolute;
-    bottom: 4.8em;
+    bottom: 5em;
     right: 2%;
     left: 2%;
     height:70%;
@@ -149,7 +149,16 @@ color:black;
 .price
 {
     position: absolute;
-    bottom: 3.3em;
+    bottom: 2.7em;
+    right: 40%;
+    left: 40%;
+    height: 1em;
+    display: inline-block;
+}
+.name
+{
+    position: absolute;
+    bottom: 3.9em;
     right: 40%;
     left: 40%;
     height: 1em;
