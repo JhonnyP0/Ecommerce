@@ -15,8 +15,9 @@ AppFrame.pack()
 config = {
     "host": "localhost",
     "user": "root",
-    "password": "my-secret-pw",
-    "database": "ecom"
+    "password": "mypass",
+    "database": "ecom",
+    "port":"5200"
 }
 
 class sqlops:
